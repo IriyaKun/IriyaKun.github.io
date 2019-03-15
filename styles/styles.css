@@ -1,0 +1,58 @@
+.wrapper{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+html{
+    background-color: #222F3E;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+h1{
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 96px;
+    font-weight: bold;
+    color: #F5E6E6;
+}
+
+.about p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 300;
+}
+
+
+nav a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    margin: 0px 31px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav{
+    position: fixed;
+    padding-top: 35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 48px;
+    }
+
+    .about p{
+        font-size: 24px;
+    }
+  }
