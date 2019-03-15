@@ -35,10 +35,16 @@ h1{
 
 nav a{
     font-family: 'Source Sans Pro', sans-serif;
+    min-width: 48px;
     font-size: 26px;
     margin: 0px 31px;
     text-decoration: none;
     color: #FFF;
+}
+
+nav a:hover{
+    border-bottom: 4px solid;
+    border-color: #F5E6E6;
 }
 
 nav{
@@ -52,7 +58,15 @@ nav{
         font-size: 48px;
     }
 
+    nav{
+        padding-top: 20px;
+    }
+
+    nav a{
+        margin: 0px 18px;
+    }
+
     .about p{
-        font-size: 24px;
+        font-size: 20px;
     }
   }
